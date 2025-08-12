@@ -1,0 +1,846 @@
+*{
+    margin:0px;
+    font-family:arial;
+    border:border-box;
+}
+
+
+
+/* MAIL SERVER START */
+.email-numbers{
+    height:5vw;
+    width:100%;
+    background-color: transparent !important;
+    border-bottom:0.1vw solid black;
+    position:relative;
+    z-index:1;
+}
+.email-numbers .icons{
+    height:100%;
+    width:13vw;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    justify-content:space-between;
+    float:left;
+}
+.email-numbers .email-lo{
+    height:100%;
+    width:32vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    justify-content:space-evenly;
+    float:right;
+}
+.email-numbers .email-lo button{
+    height:3vw;
+    background-color:transparent;
+    font-size:1vw;
+    font-weight:600;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    justify-content:space-evenly;
+    border:0.1vw solid grey;
+    word-spacing: 0.5vw;
+    border-top-left-radius:0.25vw;
+    border-top-right-radius:0.75vw;
+    border-bottom-left-radius:0.75vw;
+    border-bottom-right-radius:0.25vw;
+    font-family:Agency FB;
+}
+.email-numbers .email-lo .btn1{
+    width:14vw;
+}
+.email-numbers .email-lo .btn2{
+    width:12vw;
+}
+
+@media (min-width: 768px) and (max-width:992px) {
+  .email-numbers{
+    height:5vw;
+    width:100%;
+}
+.email-numbers .icons{
+    height:100%;
+    width:15vw;
+}
+.email-numbers .email-lo{
+    height:100%;
+    width:50vw;
+    margin-right:1vw !important;
+}
+.email-numbers .email-lo button{
+    height:3vw;
+    font-size:2vw;
+}
+.email-numbers .email-lo .btn1{
+    width:30vw;
+}
+.email-numbers .email-lo .btn2{
+    width:30vw;
+}
+
+}
+
+@media (max-width:768px) and (min-width: 100px) {
+.email-numbers .icons{
+    width:20vw;
+}
+.email-numbers .email-lo{
+    height:100%;
+    width:70vw;
+    margin-right:1vw !important;
+}
+.email-numbers .email-lo .btn1{
+    width:25vw;
+    font-size:2vw;
+    line-height:3vw;
+}
+.email-numbers .email-lo .btn2{
+    width:20vw;
+    font-size:2vw;
+    line-height:3vw;
+}
+}
+/* MAIL SERVER END */
+
+
+/* NAVBAR START */
+.navbar{
+    background-color: transparent !important;
+    position:sticky !important;
+    top:0vw;
+    z-index:1;
+}
+.navbar .nav-link{
+    color:#dba251;
+    transition:all 0.2s ease-in-out 0s;
+    font-family:Copperplate Gothic Light;
+}
+
+.navbar .nav-link:active{
+    color:#dba251;
+}
+.navbar .navbar-collapse{
+    margin-left:15vw;
+}
+
+.navbar .nav-link:hover{
+    color:#dba251;
+    opacity:0.7;
+}
+.navbar .dropdown:hover .dropdown-menu{
+    display:block;
+    border-top-left-radius:0.5vw;
+    border-top-right-radius:1.5vw;
+    border-bottom-left-radius:1.5vw;
+    border-bottom-right-radius:0.5vw;
+}
+.navbar .dropdown-menu .dropdown-item{
+    color:#dba251;
+    font-weight:500;
+    font-family:Copperplate Gothic Light;
+}
+.navbar .btn{
+    width:15vw;
+    color:grey;
+    border:0.1vw solid grey;
+}
+/* NAVBAR END */
+
+
+
+/* FRONT PAGE START */
+.front-page{
+    height:60vw;
+    width:100%;
+    background-image: url(front-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter:brightness(50%);
+    position:relative;
+    top:-150px;
+    z-index:0;
+}
+
+@media (max-width:768px) and (min-width: 100px) {
+    .front-page{
+    height:100vw;
+}
+}
+/* FRONT PAGE END */
+
+/*BOOK YOUR DREAM HOTEL WITH DEV START*/
+.box{
+    height:25vw;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    position:relative;
+    /*top:-60vw;*/
+    margin-top:-60vw;
+    z-index:2;
+}
+.box img{
+    height:22.5vw;
+}
+.box .icons{
+    width:100%;
+    position:relative;
+    letter-spacing: 0.5vw;
+    filter:brightness(120%);
+}
+.box h1{
+    font-size:6vw;
+    font-family:Copperplate Gothic Light;
+    text-align:center;
+    position:relative;
+}
+
+@media (max-width:768px) and (min-width: 100px) {
+    .box{
+    margin-top:-90vw;
+}
+}
+/*BOOK YOUR DREAM HOTEL WITH DEV END*/
+
+
+/*OFFER PAGE START*/
+.offer-page{
+    height:50vw;
+    width:100%;
+    position:relative;
+    margin-top:25vw;
+}
+.offer-page .sub-head{
+    height:5vw;
+    width:100%;
+    font-weight:600;
+    letter-spacing:0.1vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.offer-page .sub-head div{
+    width:35%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.offer-page .sub-head img{
+    height:10px;
+}
+.offer-page .heading{
+    height:auto;
+    width:auto;
+    margin-top:2vw;
+    font-family:Copperplate Gothic Light;
+}
+.offer-page .row{
+    padding:0 7vw 0 7vw;
+    margin-top:7vw;
+}
+.offer-page .row .col{
+    height:25vw;
+    overflow:hidden !important;
+    padding:17.5vw 0 0 0;
+}
+.offer-page .row .one{
+    background-image:url(offer1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow:hidden !important;
+    transition:all 0.25s ease-in-out 0s;
+}
+.offer-page .row .one:hover{
+    transform:scale(1.1);
+}
+
+.offer-page .row .two{
+    background-image:url(offer2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow:hidden !important;
+    transition:all 0.25s ease-in-out 0s;
+}
+.offer-page .row .two:hover{
+    transform:scale(1.1);
+}
+
+.offer-page .row .three{
+    background-image:url(offer3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow:hidden !important;
+    transition:all 0.25s ease-in-out 0s;
+}
+.offer-page .row .three:hover{
+    transform:scale(1.1);
+}
+.offer-page .row .col .inside-col{
+    height:5vw;
+    width:19vw;
+    background-color:white;
+    padding:1.6vw 0 2vw 2.5vw;
+    font-weight:600;
+    text-transform: capitalize;
+    border-top-right-radius:1vw;
+    border-bottom-right-radius:1vw;
+    transition:all 0.25s ease-in-out 0s;
+}
+.offer-page .row .col:hover .inside-col{
+    background-color:#dba251;
+}
+
+@media (max-width:768px) and (min-width:576px){
+.offer-page{
+    height:80vw;
+    width:100%;
+    margin-top:47.5vw;
+}
+.offer-page .sub-head{
+    height:5vw;
+    width:100%;
+    font-size:2vw;
+}
+.offer-page .sub-head div{
+    width:35%;
+    height:100%;
+}
+.offer-page .sub-head img{
+    height:10px;
+}
+.offer-page .row .three{
+    margin-top:5vw;
+}
+.offer-page .row .col .inside-col{
+    height:5vw;
+    width:35vw;
+}
+}
+
+@media (max-width:576px) and (min-width:100px){
+.offer-page{
+    height:175vw;
+    margin-top:52.5vw;
+}
+.offer-page.sub-head div{
+    width:75%;
+    height:100%;
+}
+.offer-page .row .col{
+    height:45vw;
+    margin-top:5vw;
+}
+.offer-page .row .col .inside-col{
+    height:7.5vw;
+    width:75%;
+}
+}
+
+/*OFFER PAGE END*/
+
+
+/* OUTDOOR ACTIVITIES TO ALL VISITORS START */
+.outdoor{
+    height:50vw;
+    background-image: url(od-bg.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.outdoor .row{
+    height:52.5vw;
+}
+.outdoor .col2{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.outdoor .row .col1 .sub-head{
+    height:3vw;
+    width:65%;
+    font-size:1.2vw;
+    font-weight:600;
+    letter-spacing:0.1vw;
+    display: flex;
+    justify-content:center;
+    justify-content:space-between;
+    align-items:center;
+}
+.outdoor .row .col1 .heading{
+    font-size:2.7vw;
+    margin-top:2vw;
+    font-family:Copperplate Gothic Light;
+}
+.outdoor .row .col1 p{
+    font-size:1.6vw;
+    font-weight:400;
+    margin-top:2vw;
+}
+.outdoor .row .col1 .row2{
+    height:10vw;
+    width:100%;
+}
+.outdoor .row .col1 .row2 .left-side{
+    height:100%;
+    width:50%;
+    font-size:2vw;
+    float:left;
+    display:flex;
+    justify-content:center;
+    justify-content:space-evenly;
+    align-items:center;
+    font-family:Copperplate Gothic Light;
+}
+.outdoor .row .col1 .row2 .right-side{
+    height:100%;
+    width:50%;
+    font-size:2vw;
+    float:right;
+    display:flex;
+    justify-content:center;
+    justify-content:space-evenly;
+    align-items:center;
+    font-family:Copperplate Gothic Light;
+}
+.outdoor .row .col1 .row2 i{
+    font-size:4vw;
+}
+.outdoor .row .col1 .key-points p i{
+    font-size:1.2vw;
+}
+.outdoor .row .col1 .key-points p{
+    font-size:1.4vw;
+}
+.outdoor .row .col1 button{
+    height:3.5vw;
+    width:12vw;
+    background-color:#aa8453;
+    font-size:1.4vw;
+    border:0;
+    transition: all 0.2s ease-in-out 0s;
+}
+.outdoor .row .col1 button:hover{
+    background-color:#dba251;
+    font-weight:600;
+}
+.outdoor .row .col1 button:active{
+    background-color:#dba251;
+    font-weight:600;
+}
+.outdoor .row .col2 img{
+    height:50vw;
+    transition: all 0.2s ease-in-out 0s;
+    overflow: hidden;
+}
+.outdoor .row .col2 img:hover{
+    transform:scale(1.1);
+    filter:brightness(75%);
+}
+/* 1200-992 */
+@media (max-width:1200px) and (min-width:992px){
+.outdoor{
+    height:60vw;
+    background-image: url(od-bg.png);
+}
+.outdoor .row{
+    height:57.5vw;
+    background-color:transparent;
+}
+.outdoor .row .col2 img{
+    height:53vw;
+}
+}
+
+/* 992-768 */
+@media (max-width:992px) and (min-width:768px){
+.outdoor{
+    height:120vw;
+    background-image: url(od-bg.png);
+}
+.outdoor .row{
+    height:115vw;
+    background-color:transparent;
+}
+.outdoor .col1{
+    background-color:transparent;
+}
+.outdoor .col2{
+    background-color:transparent;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.outdoor .row .col1 .sub-head{
+    height:3vw;
+    width:65%;
+    background-color:transparent;
+    font-size:1.5vw;
+}
+.outdoor .row .col1 .heading{
+    font-size:3.5vw;
+    margin-top:3vw;
+}
+.outdoor .row .col1 p{
+    font-size:2vw;
+    margin-top:2.5vw;
+}
+.outdoor .row .col1 .row2 .left-side{
+    height:100%;
+    width:50%;
+    font-size:2.5vw;
+}
+.outdoor .row .col1 .row2 .right-side{
+    height:100%;
+    width:50%;
+    font-size:2.5vw;
+}
+.outdoor .row .col1 .row2 i{
+    font-size:4.5vw;
+}
+.outdoor .row .col1 .key-points p i{
+    font-size:1.5vw;
+}
+.outdoor .row .col1 .key-points p{
+    font-size:2vw;
+}
+.outdoor .row .col1 button{
+    height:3.5vw;
+    width:12vw;
+    background-color:#aa8453;
+    font-size:1.4vw;
+    border:0;
+}
+.outdoor .row .col2{
+    margin-top:2vw;
+}
+.outdoor .row .col2 img{
+    height:52.5vw;
+}
+}
+
+/* 768-100 */
+@media (max-width:768px) and (min-width:100px) {
+.outdoor{
+    height:135vw;
+    background-image: url(od-bg.png);
+    margin-top:5vw;
+}
+.outdoor .row{
+    height:130vw;
+}
+.outdoor .row .col1 .sub-head{
+    height:3.5vw;
+    width:100%;
+    font-size:3vw;
+}
+.outdoor .row .col1 .heading{
+    font-size:4vw;
+    font-weight:500;
+    margin-top:4vw;
+}
+.outdoor .row .col1 p{
+    font-size:2.5vw;
+}
+.outdoor .row .col1 .row2 .left-side{
+    font-size:3.5vw;
+}
+.outdoor .row .col1 .row2 .right-side{
+    font-size:3.5vw;
+}
+.outdoor .row .col1 .row2 i{
+    font-size:6.5vw;
+}
+.outdoor .row .col1 .key-points p i{
+    font-size:2vw;
+}
+.outdoor .row .col1 .key-points p{
+    font-size:2.5vw;
+}
+.outdoor .row .col1 button{
+    height:5vw;
+    width:17.5vw;
+    font-size:2vw;
+}
+.outdoor .row .col2{
+    margin-top:2vw;
+}
+}
+/* OUTDOOR ACTIVITIES TO ALL VISITORS START */
+
+
+/* BOOK YOUR STAY START */
+.book-stay{
+    height:75vw;
+    background-color: #f6f2ed;
+    padding-top:3.5vw;
+}
+.book-stay .sub-head{
+    height:5vw;
+    width:100%;
+    font-weight:600;
+    letter-spacing:0.1vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.book-stay .sub-head div{
+    width:35%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.book-stay .heading{
+    height:auto;
+    width:auto;
+    margin-top:2vw;
+    font-family:Copperplate Gothic Light;
+}
+.book-stay .row{
+    height:45vw;
+    padding:0 5vw 0 5vw;
+    margin-top:5vw;
+}
+.book-stay .row .col{
+    height:100%;
+    background-color: white;
+}
+.book-stay .row .col img{
+    width:100%;
+}
+.book-stay .row .col .col-box{
+    height:24.25vw;
+    padding:1.5vw;
+}
+.book-stay .row .col .col-box .suite-price{
+    height:10vw;
+    border-bottom:0.15vw solid rgb(187, 168, 168);
+    line-height:2.5vw;
+    padding-top:2.5vw;
+}
+.book-stay .row .col .col-box .suite-price .suite{
+    font-size:2vw;
+    font-family:Copperplate Gothic Light;
+}
+.book-stay .row .col .col-box .suite-price .price{
+    font-size: 1.5vw;
+}
+.book-stay .row .col .col-box .row2{
+    height:3vw;
+    font-size:1.35vw;
+    font-weight: 500;
+    color:grey;
+    text-transform: capitalize;
+    margin-top:1.5vw;
+}
+.book-stay .row .col .col-box .row2 .left{
+    height:100%;
+    width:50%;
+    float:left;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    justify-content:space-evenly;
+    padding:0 1vw 0 1vw;
+}
+.book-stay .row .col .col-box .row2 .right{
+    height:100%;
+    width:50%;
+    float:right;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    justify-content:space-evenly;
+    padding:0 1vw 0 1vw;
+}
+.book-stay .row .col .col-box .row3{
+    height:3vw;
+    font-size:1.35vw;
+    font-weight: 100;
+    color:grey;
+    text-transform: capitalize;
+    margin-top:0.5vw;
+}
+.book-stay .row .col .col-box .row3 .left{
+    height:100%;
+    width:50%;
+    float:left;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    justify-content:space-evenly;
+    padding:0 1vw 0 1vw;
+}
+.book-stay .row .col .col-box .row3 .right{
+    height:100%;
+    width:50%;
+    float:right;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    justify-content:space-evenly;
+    padding:0 1vw 0 1vw;
+}
+
+
+
+/* 768--576 */
+@media (max-width:768px) and (min-width:100px){
+    .book-stay{
+    height:315vw;
+    padding-top:5vw;
+}
+.book-stay .sub-head{
+    height:5.5vw;
+    width:100%;
+    font-size:2vw;
+    font-weight:600;
+    letter-spacing:0.1vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.book-stay .sub-head div{
+    width:35%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.book-stay .heading{
+    font-size:5vw;
+    margin-top:5vw;
+}
+.book-stay .row{
+    height:275vw;
+    padding:0 15vw 0 15vw;
+}
+.book-stay .row .col{
+    height:auto;
+    margin-top:5vw;
+}
+.book-stay .row .col .col-box{
+    height:35vw;
+    padding:3.5vw;
+}
+.book-stay .row .col .col-box .suite-price{
+    height:15vw;
+    border-bottom:0.15vw solid black;
+    line-height:3.75vw;
+    padding-top:5vw;
+}
+.book-stay .row .col .col-box .suite-price .suite{
+    font-size:4vw;
+}
+.book-stay .row .col .col-box .suite-price .price{
+    font-size: 2.5vw;
+}
+.book-stay .row .col .col-box .row2{
+    height:6vw;
+    font-size:3vw;
+    font-weight: 500;
+    color:grey;
+    text-transform: capitalize;
+    margin-top:1.5vw;
+}
+.book-stay .row .col .col-box .row3{
+    height:6vw;
+    font-size:3vw;
+    font-weight: 500;
+    color:grey;
+    text-transform: capitalize;
+    margin-top:0.5vw;
+}
+}
+/* BOOK YOUR STAY END */
+
+
+/* SWIPER 1 */
+.swiper1{
+    height:35vw;
+    background-color:#f6f2ed;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow: hidden;
+}
+.swiper1 .swiper {
+    height:25vw;
+    width:75%;  
+    }
+.swiper1 .swiper-slide {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+    border-radius:1.5vw;
+    padding:4vw 4vw 4vw 4vw;
+    }
+.swiper1 .swiper-slide p{
+    width:100%;
+    font-size:1.5vw;
+    color:grey;
+    font-weight:500;
+}
+.swiper1 .swiper-slide .name{
+    width:100%;
+    font-family:Copperplate Gothic Light;
+}
+.swiper1 .swiper-slide img{
+    height:7vw;
+    width:7vw;
+    border-radius:50%;
+}
+
+/* 764--100 */
+@media (max-width:764px) and (min-width:100px){
+.swiper1{
+    height:75vw;
+    background-color:#f6f2ed;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow: hidden;
+}
+.swiper1 .swiper {
+    height:65vw;
+    width:75%;  
+    }
+.swiper1 .swiper-slide {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+    border-radius:1.5vw;
+    padding:4vw 4vw 4vw 4vw;
+    }
+.swiper1 .swiper-slide p{
+    width:100%;
+    font-size:2.75vw;
+    color:grey;
+    font-weight:500;
+}
+.swiper1 .swiper-slide .name{
+    width:100%;
+    font-family:Copperplate Gothic Light;
+}
+.swiper1 .swiper-slide img{
+    height:15vw;
+    width:15vw;
+    border-radius:50%;
+}
+}
